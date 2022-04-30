@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Laila:wght@500&family=Varela+Round&display=swap');
+*{
+ margin: 0px;
+ padding: 0px; 
+ box-sizing: border-box;
+
+}
+body{
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(#44F9D9, #28C0DB , #3A44B3 );
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.container{
+    height: 700px;
+    width: 80%;
+    /* background-color: #6b0c88; */
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+
+.caixalogo{
+  height: 200px;
+  width: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  /* background-color: #89259b; */
+  
+}
+
+.logoprincipal{
+  height: 200px;
+  width: 300px;
+  /* background-color: azure; */
+  
+}
+
+h1{
+  font-size: 60px;
+  color: white;
+  font-family: 'Laila', sans-serif;
+
+}
+
+.caixa2{
+  width: 100%;
+  height: 500px;
+  justify-content: space-between;
+  display: flex;
+  /* background-color: #8a5094; */
+  align-items: center;
+}
+
+button{
+  height: 50px;
+  width: 200px;
+  margin-right: 220px; 
+  background-color: #0358A2;
+  border-radius: 20px;
+  font-family: 'Laila', sans-serif;
+  font-size: 30px;
+  color: white;
+  box-shadow: 2px 1px 10px #033e72;
+ 
+}
+
+.lulabravo{
+  width: 200px;
+  /* background-color: #28C0DB; */
+  margin-right: 50px;
+}
+
+.bobepatrick{
+  width: 450px;
+  /* background-color: #28C0DB; */
+  padding-right: 50px;
+
+}
