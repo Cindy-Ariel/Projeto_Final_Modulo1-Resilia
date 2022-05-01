@@ -18,7 +18,6 @@ body{
 .container{
     height: 700px;
     width: 80%;
-    /* background-color: #6b0c88; */
     display: flex;
     flex-direction:column;
     justify-content: center;
@@ -33,15 +32,12 @@ body{
   display: flex;
   flex-direction: row;
   justify-content: center;
-  /* background-color: #89259b; */
   
 }
 
 .logoprincipal{
   height: 200px;
   width: 300px;
-  /* background-color: azure; */
-  
 }
 
 h1{
@@ -56,7 +52,6 @@ h1{
   height: 500px;
   justify-content: space-between;
   display: flex;
-  /* background-color: #8a5094; */
   align-items: center;
 }
 
@@ -75,13 +70,11 @@ button{
 
 .lulabravo{
   width: 200px;
-  /* background-color: #28C0DB; */
   margin-right: 50px;
 }
 
 .bobepatrick{
   width: 450px;
-  /* background-color: #28C0DB; */
   padding-right: 50px;
 
 }
