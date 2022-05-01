@@ -1,5 +1,5 @@
-// url do google sendo utilizada como exemplo.
-var urlPaginaBob = "https://www.google.com.br";
+var urlPaginaBob =
+  "file:///C:/Users/Dennis/Documents/GitHub/Projeto_Final_Modulo1-Resilia/pages/bobganha/index.html";
 
 var urlPaginaLula = "";
 

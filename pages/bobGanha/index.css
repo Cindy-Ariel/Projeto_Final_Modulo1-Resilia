@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Laila:wght@500&family=Varela+Round&display=swap');
+*{
+ margin: 0px;
+ padding: 0px; 
+ box-sizing: border-box;
+
+}
+body{
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(#44F9D9, #28C0DB , #3A44B3 );
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.container{
+  height: 700px;
+  width: 80%; 
+  display: flex;
+  flex-direction:column;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+}
+
+.logoprincipal{
+  height: 150px;
+  width: 200px;
+}
+
+h1{
+  font-size: 40px;
+  color: white;
+  font-family: 'Laila', sans-serif;
+  padding-top: 0;
+}
+
+.caixa2{
+  width: 100%;
+  height: 500px;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+}
+
+
+.bobFeliz{
+  width: 750px;
+  margin-right: 50px;
+}
+
+button{
+  height: 50px;
+  width: 200px;
+  margin-top: 20px;
+  background-color: #0358A2;
+  border-radius: 20px;
+  font-family: 'Laila', sans-serif;
+  font-size: 30px;
+  color: white;
+  box-shadow: 2px 1px 10px #033e72;
+ 
+}
+
