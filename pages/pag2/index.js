@@ -7,7 +7,8 @@ var urlPaginaPatrick =
 var urlPaginaLula =
   "file:///C:/Users/Dennis/Documents/GitHub/Projeto_Final_Modulo1-Resilia/pages/lulaGanha/index.html";
 
-var urlTodosGanham = "";
+var urlTodosGanham =
+  "file:///C:/Users/Dennis/Documents/GitHub/Projeto_Final_Modulo1-Resilia/pages/todosGanham/index.html";
 
 var bobPontos = 0;
 var patrickPontos = 0;
@@ -31,6 +32,11 @@ function calcResultERedirecionar() {
       break;
     case lulaPontos:
       window.open(urlPaginaLula);
+      break;
+    case (lulaPontos && bobPontos) ||
+      (bobPontos && patrickPontos) ||
+      (lulaPontos && patrickPontos):
+      window.open(urlTodosGanham);
       break;
   }
 }
