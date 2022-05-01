@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Laila:wght@500&family=Varela+Round&display=swap');
+*{
+ margin: 0px;
+ padding: 0px; 
+ box-sizing: border-box;
+
+}
+body{
+  height: 200vh;
+  width: 100%;
+  background: linear-gradient(#44F9D9, #28C0DB , #3A44B3 );
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: row;
+}
+
+.container{
+  width: 80%; 
+  display: flex;
+  flex-direction:column;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+}
+.caixalogo{
+  width: 100%;
+  display: flex;
+  flex-direction: row; 
+  justify-content: center;
+
+}
+
+.bobPensando{
+  right: 10px;
+  position: absolute;
+}
+
+.logoprincipal{
+  height: 150px;
+  width: 200px;
+}
+
+.bobPensando{
+  width: 200px;
+  height: 200px;
+}
+
+h1{
+  font-size: 40px;
+  color: white;
+  font-family: 'Laila', sans-serif;
+  padding-top: 0;
+}
+
+h3{
+  font-size: 35px;
+  color: white;
+  font-family: 'Laila', sans-serif;
+  padding-top: 0;
+  margin-top: 50px;
+}
