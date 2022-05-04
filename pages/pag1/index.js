@@ -1,5 +1,5 @@
 var url =
-  "file:///C:/Users/Dennis/Documents/GitHub/Projeto_Final_Modulo1-Resilia/pages/pag2/index.html";
+  "https://cindy-ariel.github.io/Projeto_Final_Modulo1-Resilia/pages/pag2/index.html";
 var botao = document.getElementById("comecar");
 
 function aoclicarbotao(url) {

@@ -1,14 +1,14 @@
 var urlPaginaBob =
-  "file:///C:/Users/Dennis/Documents/GitHub/Projeto_Final_Modulo1-Resilia/pages/bobganha/index.html";
+  "https://cindy-ariel.github.io/Projeto_Final_Modulo1-Resilia/pages/bobganha/index.html";
 
 var urlPaginaPatrick =
-  "file:///C:/Users/Dennis/Documents/GitHub/Projeto_Final_Modulo1-Resilia/pages/patrickGanha/index.html";
+  "https://cindy-ariel.github.io/Projeto_Final_Modulo1-Resilia/pages/patrickGanha/index.html";
 
 var urlPaginaLula =
-  "file:///C:/Users/Dennis/Documents/GitHub/Projeto_Final_Modulo1-Resilia/pages/lulaGanha/index.html";
+  "https://cindy-ariel.github.io/Projeto_Final_Modulo1-Resilia/pages/lulaGanha/index.html";
 
 var urlTodosGanham =
-  "file:///C:/Users/Dennis/Documents/GitHub/Projeto_Final_Modulo1-Resilia/pages/todosGanham/index.html";
+  "https://cindy-ariel.github.io/Projeto_Final_Modulo1-Resilia/pages/todosGanham/index.html";
 
 var bobPontos = 0;
 var patrickPontos = 0;
