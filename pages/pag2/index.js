@@ -117,18 +117,18 @@ function fazerPergunta(pergunta, respondeuNao, respondeuSim, contador) {
   } else {
     alert("Você não digitou um numero valido");
   }
-  console.log(contador);
-  console.log(perguntas.length);
 }
 
 //Ao carregar a página a pergunta será mostrada.
 window.addEventListener("load", () => {
-  for (var contador = 0; contador <= perguntas.length; contador++) {
-    fazerPergunta(
-      perguntas[contador].pergunta,
-      perguntas[contador].respondeuNao,
-      perguntas[contador].respondeuSim,
-      contador + 1
-    );
-  }
+  setTimeout(() => {
+    for (var contador = 0; contador <= perguntas.length; contador++) {
+      fazerPergunta(
+        perguntas[contador].pergunta,
+        perguntas[contador].respondeuNao,
+        perguntas[contador].respondeuSim,
+        contador + 1
+      );
+    }
+  }, "1000");
 });
