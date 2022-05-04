@@ -26,15 +26,6 @@ body{
     align-items: center;
 }
 
-.caixalogo{
-  height: 200px;
-  width: 100px;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  
-}
-
 .logoprincipal{
   height: 200px;
   width: 300px;
