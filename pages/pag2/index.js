@@ -1,5 +1,5 @@
 var urlPaginaBob =
-  "https://cindy-ariel.github.io/Projeto_Final_Modulo1-Resilia/pages/bobganha/index.html";
+  "https://cindy-ariel.github.io/Projeto_Final_Modulo1-Resilia/pages/bobGanha/index.html";
 
 var urlPaginaPatrick =
   "https://cindy-ariel.github.io/Projeto_Final_Modulo1-Resilia/pages/patrickGanha/index.html";
@@ -101,16 +101,16 @@ function calcResultERedirecionar() {
 function fazerPergunta(pergunta, respondeuNao, respondeuSim, contador) {
   var resposta = prompt(pergunta);
   if (resposta === "1") {
-    bobPontos = respondeuSim.bobPontos;
-    patrickPontos = respondeuSim.patrickPontos;
-    lulaPontos = respondeuSim.lulaPontos;
+    bobPontos = bobPontos + respondeuSim.bobPontos;
+    patrickPontos = patrickPontos + respondeuSim.patrickPontos;
+    lulaPontos = lulaPontos + respondeuSim.lulaPontos;
     if (contador === perguntas.length) {
       calcResultERedirecionar();
     }
   } else if (resposta === "2") {
-    bobPontos = respondeuNao.bobPontos;
-    patrickPontos = respondeuNao.patrickPontos;
-    lulaPontos = respondeuNao.lulaPontos;
+    bobPontos = bobPontos + respondeuNao.bobPontos;
+    patrickPontos = patrickPontos + respondeuNao.patrickPontos;
+    lulaPontos = lulaPontos + respondeuNao.lulaPontos;
     if (contador === perguntas.length) {
       calcResultERedirecionar();
     }
